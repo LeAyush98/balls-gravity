@@ -61,8 +61,8 @@ var Ball = /** @class */ (function () {
 var ball;
 var ballArr = [];
 function init() {
-    for (var i = 0; i < 100; i++) {
-        var radius = randomise(10, 100);
+    for (var i = 0; i < 200; i++) {
+        var radius = randomise(5, 40);
         ballArr.push(new Ball(randomise(radius, canvas.width - radius), randomise(radius, canvas.height - radius * 5), radius, 1));
     }
 }
