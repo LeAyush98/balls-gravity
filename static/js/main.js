@@ -6,14 +6,14 @@ window.addEventListener("keypress", function (event) {
     if (event.code == "Space") {
         for (var i = 0; i < ballArr.length; i++) {
             c.beginPath();
-            ballArr[i].dy = randomise(0, 50) + 10;
+            ballArr[i].dy = randomise(0, 30) + 10;
         }
     }
 });
 window.addEventListener("touchmove", function (event) {
     for (var i = 0; i < ballArr.length; i++) {
         c.beginPath();
-        ballArr[i].dy = randomise(0, 50) + 10;
+        ballArr[i].dy = randomise(0, 30) + 10;
     }
 });
 window.addEventListener('resize', function (event) {
